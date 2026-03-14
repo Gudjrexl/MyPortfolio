@@ -93,7 +93,7 @@ fun InternshipSection() {
         verticalArrangement = Arrangement.spacedBy(40.dp)    ) {
 
         Text(
-            "Internship Experience",
+            "Internship Experience - (o y 11 m)",
             fontSize = 32.sp,
             fontWeight = FontWeight.Bold,
             color = Color.White
