@@ -167,12 +167,12 @@ fun PortfolioFooter() {
 
         Row {
             Text(
-                "© 2026 Guddu Kumar",
+                "© 2026 Guddu Kumar ",
                 color = Color.White
             )
 
             Text(
-                "Made with Kotlin + Compose Multiplatform",
+                " Made with Kotlin + Compose Multiplatform",
                 color = Color.White,
                 fontWeight = FontWeight.SemiBold
             )
