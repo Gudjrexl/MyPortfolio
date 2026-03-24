@@ -11,29 +11,30 @@ val personalProjects = listOf(
 
     Project(
         name = "Trev – Couples App",
-        description = "Full-stack Android app for couples with realtime chat, media sync and payments.",
-        tech = listOf("Kotlin","Compose","Node.js","MongoDB","WebRTC","Socket.IO","ExoPlayer"),
-        apk = "https://drive.google.com/drive/folders/1NBLXWUhwdakTM6H3VzW85CnarG-zYole",
+        description = "Full-stack Android app for couples with realtime chat, media sync, roleplay through story",
+        tech = listOf("Kotlin","Compose","Node.js","MongoDB","WebRTC","Socket.IO","ExoPlayer", "Rozarpay"),
+        apk = "https://drive.google.com/drive/folders/1uX16oju5ii-V91845etcEeqynxxt4wG-?usp=sharing",
     ),
     Project(
         "Portfolio",
         "Personal development website",
         listOf("Kotlin","Compose MultiPlatform"),
-        ""
+        "https://gudjrexl.github.io/MyPortfolio/"
     ),
 
-//    Project(
-//        name = "Learn Android",
-//        description = "Android learning platform with lessons, quizzes and video tutorials.",
-//        tech = listOf("Kotlin","Firebase","REST API","ExoPlayer"),
-//        apk = "https://drive.google.com/drive/folders/1NBLXWUhwdakTM6H3VzW85CnarG-zYole",
-//    )
+    Project(
+        name = "Zenfit",
+        description = "Personality app development, including fitness, skincare, diet",
+        tech = listOf("Kotlin","Firebase","REST API",),
+        apk = "https://drive.google.com/drive/folders/1uX16oju5ii-V91845etcEeqynxxt4wG-?usp=sharing",
+    )
 )
 
 
 data class InternshipProject(
     val name: String,
     val description: String,
+    val tech: List<String> = emptyList(),
     val apk: String
 )
 
@@ -54,17 +55,20 @@ val internships = listOf(
             InternshipProject(
                 name = "Vish Academy App",
                 description = "Developed Android learning platform features using Kotlin, Jetpack Compose and Firebase. Improved user engagement with modern UI components.",
+                tech = listOf("Kotlin","Compose","Firebase"),
                 apk = "https://play.google.com/store/apps/details?id=com.rach.co"
             ),
 
             InternshipProject(
                 name = "Habitime App",
-                description = "Built productivity features using WorkManager, Native APIs and Accessibility services. Implemented Google Text-to-Speech for better accessibility.",
+                description = "Built productivity features using WorkManager, Native APIs and Accessibility services. Track app usage and notify user.",
+                tech = listOf("Kotlin","Compose","WorkManager"),
                 apk = "https://play.google.com/store/apps/details?id=com.rach.habitchange"
             ),
             InternshipProject(
                 name = "Text to Speech",
-                description = "Google TTs, Kotlin, Jetcompose",
+                description = "Provide text to speech using tts, also read document aloud",
+                tech = listOf("Kotlin","Compose", "Google TTS"),
                 apk = "https://play.google.com/store/apps/details?id=com.rach.texttospeechbyvishlabs"
             )
 

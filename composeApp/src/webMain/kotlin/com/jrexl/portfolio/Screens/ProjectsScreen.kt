@@ -162,6 +162,13 @@ fun InternshipProjectCard(project: InternshipProject) {
             project.description,
             color = Color.LightGray
         )
+        if (project.tech.isNotEmpty()) {
+//             Text(
+//            project.tech,
+//            color = Color.LightGray
+//        )
+            TechBadges(project.tech)
+        }
 
         Text(
             "Download APK",
