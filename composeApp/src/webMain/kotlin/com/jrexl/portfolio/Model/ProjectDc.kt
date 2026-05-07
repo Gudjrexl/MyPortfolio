@@ -82,7 +82,7 @@ val internships = listOf(
 
             InternshipProject(
                 name = "Bearull Mobile App",
-                description = "Developed Android UI components for the Bearull application using Kotlin and Jetpack Compose.",
+                description = "Online quize and puzzle Bearull application using Kotlin and Jetpack Compose.",
                 apk = ""
             )
         )
