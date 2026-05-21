@@ -49,7 +49,7 @@ val internships = listOf(
 
     InternshipCompany(
         companyName = "Vish Labs",
-        duration = "Dec 2025 – Present",
+        duration = "Dec 2025 – May 2026",
         projects = listOf(
 
             InternshipProject(
