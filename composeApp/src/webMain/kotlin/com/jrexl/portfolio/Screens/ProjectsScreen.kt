@@ -93,7 +93,7 @@ fun InternshipSection() {
         verticalArrangement = Arrangement.spacedBy(40.dp)    ) {
 
         Text(
-            "Internship Experience - (o y 11 m)",
+            "Internship Experience ",
             fontSize = 32.sp,
             fontWeight = FontWeight.Bold,
             color = Color.White
@@ -163,10 +163,7 @@ fun InternshipProjectCard(project: InternshipProject) {
             color = Color.LightGray
         )
         if (project.tech.isNotEmpty()) {
-//             Text(
-//            project.tech,
-//            color = Color.LightGray
-//        )
+
             TechBadges(project.tech)
         }
 

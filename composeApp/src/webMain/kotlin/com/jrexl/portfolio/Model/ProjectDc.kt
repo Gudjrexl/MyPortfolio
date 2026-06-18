@@ -47,6 +47,20 @@ data class InternshipCompany(
 
 val internships = listOf(
 
+
+    InternshipCompany(
+        companyName = "New Age",
+        duration = "June 2026 – Present",
+        projects = listOf(
+
+            InternshipProject(
+                name = "My Love App",
+                description = "Developing My love app for the couple to stay connected",
+                apk = ""
+            )
+        )
+    ),
+
     InternshipCompany(
         companyName = "Vish Labs",
         duration = "Dec 2025 – May 2026",
