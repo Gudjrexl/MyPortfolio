@@ -119,18 +119,7 @@ val internships = listOf(
                 apk = "https://www.linkedin.com/posts/guddu-jrexl-777154217_applaunch-kotlin-nodejs-activity-7372966368390000640-RLQp/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADapMEsB3jS_I0SgNH59QFzlyW5Tz3yZBpw"
             )
         )
-    ),
-
-    InternshipCompany(
-        companyName = "Micro IT",
-        duration = "Apr 2025 – May 2025",
-        projects = listOf(
-
-            InternshipProject(
-                name = "Utility Apps",
-                description = "Built To-Do and Calculator apps using Jetpack Compose.",
-                apk = ""
-            )
-        )
     )
+
+
 )

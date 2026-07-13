@@ -51,7 +51,6 @@ val skillCategories = listOf(
         listOf(
             "MongoDB",
             "MySQL",
-            "SQLite",
             "Room"
         )
     ),
@@ -97,10 +96,16 @@ data class SoftSkill(
 val educationList = listOf(
 
     Education(
+        title = "Master of Computer Applications (MCA)",
+        institute = "GL Bajaj Greater Noida, Uttar Pradesh",
+        year = "2026 - 2028",
+        score = "CGPA: "
+    ),
+    Education(
         title = "Bachelor of Computer Applications (BCA)",
         institute = "Quantum University, Roorkee, Uttarakhand",
         year = "2023 - 2026",
-        score = "CGPA: 8.66"
+        score = "CGPA: 8.69"
     ),
 
     Education(
