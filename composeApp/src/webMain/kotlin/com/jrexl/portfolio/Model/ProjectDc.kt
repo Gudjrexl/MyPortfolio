@@ -8,7 +8,12 @@ data class Project(
 )
 
 val personalProjects = listOf(
-
+    Project(
+        "Learn Android",
+        "Android app for learning android app development",
+        listOf("Kotlin","Firebase","Jetpack Compose"),
+        "https://play.google.com/store/apps/details?id=com.kotlin.android&pcampaignid=web_share"
+    ),
     Project(
         name = "Trev – Couples App",
         description = "Full-stack Android app for couples with realtime chat, media sync, roleplay through story",
