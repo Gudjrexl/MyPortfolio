@@ -22,12 +22,7 @@ val personalProjects = listOf(
         "https://gudjrexl.github.io/MyPortfolio/"
     ),
 
-    Project(
-        name = "Zenfit",
-        description = "Personality app development, including fitness, skincare, diet",
-        tech = listOf("Kotlin","Firebase","REST API",),
-        apk = "https://drive.google.com/drive/folders/1uX16oju5ii-V91845etcEeqynxxt4wG-?usp=sharing",
-    )
+
 )
 
 
@@ -54,10 +49,24 @@ val internships = listOf(
         projects = listOf(
 
             InternshipProject(
+                name = "Featues and Bug",
+                description = "Implemented features and bug for the others app",
+                apk = "https://play.google.com/store/apps/developer?id=2cuteHinchBoard"
+            ),
+
+
+            InternshipProject(
                 name = "My Love App",
-                description = "Developing My love app for the couple to stay connected",
-                apk = ""
-            )
+                description = "Developed My love app for the couple to stay connected",
+                apk = "https://play.google.com/store/apps/details?id=com.mylove.datingcalculator&pcampaignid=web_share"
+            ),
+
+            InternshipProject(
+                name = "Currency Converter ",
+                description = "Developed currency converter app using Kotlin and Jetpack Compose",
+                apk = "https://play.google.com/store/apps/details?id=com.currencyconverter.live&pcampaignid=web_share"
+            ),
+
         )
     ),
 
