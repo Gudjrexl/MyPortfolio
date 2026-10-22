@@ -11,21 +11,16 @@ val personalProjects = listOf(
     Project(
         "Learn Android",
         "Android app for learning android app development",
-        listOf("Kotlin","Firebase","Jetpack Compose"),
+        listOf("Kotlin","Firebase","Jetpack Compose", "MS Clarity"),
         "https://play.google.com/store/apps/details?id=com.kotlin.android&pcampaignid=web_share"
     ),
     Project(
-        name = "Trev – Couples App",
-        description = "Full-stack Android app for couples with realtime chat, media sync, roleplay through story",
+        name = "TryHide – Vibes Together",
+        description = "Full-stack Android app for friends with realtime chat, media sync, roleplay through story",
         tech = listOf("Kotlin","Compose","Node.js","MongoDB","WebRTC","Socket.IO","ExoPlayer", "Rozarpay"),
-        apk = "https://drive.google.com/drive/folders/1uX16oju5ii-V91845etcEeqynxxt4wG-?usp=sharing",
+        apk = "https://play.google.com/store/apps/details?id=com.jrexl.Trev&pcampaignid=web_share",
     ),
-    Project(
-        "Portfolio",
-        "Personal development website",
-        listOf("Kotlin","Compose MultiPlatform"),
-        "https://gudjrexl.github.io/MyPortfolio/"
-    ),
+
 
 
 )
@@ -50,7 +45,7 @@ val internships = listOf(
 
     InternshipCompany(
         companyName = "New Age",
-        duration = "June 2026 – Present",
+        duration = "June 2026 – Oct 2026",
         projects = listOf(
 
             InternshipProject(

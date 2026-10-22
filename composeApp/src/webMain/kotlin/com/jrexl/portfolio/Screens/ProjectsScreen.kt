@@ -168,7 +168,7 @@ fun InternshipProjectCard(project: InternshipProject) {
         }
 
         Text(
-            "Download APK",
+            "See App",
             color = Color(0xFF38BDF8),
             modifier = Modifier.clickable {
                 openUrl(project.apk)

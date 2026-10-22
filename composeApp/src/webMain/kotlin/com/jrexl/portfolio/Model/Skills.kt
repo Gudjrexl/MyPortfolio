@@ -28,7 +28,10 @@ val skillCategories = listOf(
             "WorkManager",
             "Material 3",
             "Monetization",
-            "DI hilt"
+            "DI hilt",
+            "TRoas",
+            "Google Admob",
+            "Localisation"
         )
     ),
 
@@ -51,7 +54,8 @@ val skillCategories = listOf(
         listOf(
             "MongoDB",
             "MySQL",
-            "Room"
+            "Room",
+            "DataStore"
         )
     ),
 
@@ -77,7 +81,12 @@ val skillCategories = listOf(
             "CI/CD",
             "Ngrok",
             "Compose Multiplatform",
-            "Kotlin Multiplatform"
+            "Kotlin Multiplatform",
+            "Monday",
+            "Googple play Console",
+            "Ms Clarity",
+            "Analytics",
+            "Firebase"
         )
     )
 )

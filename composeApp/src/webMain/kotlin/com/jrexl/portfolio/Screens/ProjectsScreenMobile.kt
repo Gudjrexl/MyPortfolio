@@ -175,7 +175,7 @@ fun InternshipProjectCardMobile(project: InternshipProject) {
 
         if (project.apk.isNotBlank()) {
             Text(
-                "Open Link",
+                "See App",
                 color = Color(0xFF38BDF8),
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.clickable { openUrl(project.apk) }
